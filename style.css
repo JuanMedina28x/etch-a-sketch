@@ -1,0 +1,23 @@
+div {
+display: flex;
+flex-wrap: wrap;
+width: 70vw;
+height: 70vh;
+}
+
+.divGrid{
+border:2px solid black;
+padding:20px;
+height:10px;
+width: 5px;
+box-sizing: border-box;
+flex-basis: calc(100% / 64);
+flex-grow: 1;
+}
+
+.btn{
+padding: 20px;
+margin: 20px;
+background-color: rgb(229, 224, 224);
+font-size: 150px;
+}
